@@ -1,0 +1,106 @@
+core_simple.o: core_simple.cpp \
+ /opt/analogics/am335x_sk/toolchain/include/stdc-predef.h \
+ /opt/analogics/am335x_sk/toolchain/include/stdio.h \
+ /opt/analogics/am335x_sk/toolchain/include/features.h \
+ /opt/analogics/am335x_sk/toolchain/include/sys/cdefs.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/wordsize.h \
+ /opt/analogics/am335x_sk/toolchain/include/gnu/stubs.h \
+ /opt/analogics/am335x_sk/toolchain/include/gnu/stubs-soft.h \
+ /opt/analogics/am335x_sk/toolchain/lib/gcc/armv7l-analogics-linux-gnueabi/4.8.2/include/stddef.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/types.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/typesizes.h \
+ /opt/analogics/am335x_sk/toolchain/include/libio.h \
+ /opt/analogics/am335x_sk/toolchain/include/_G_config.h \
+ /opt/analogics/am335x_sk/toolchain/include/wchar.h \
+ /opt/analogics/am335x_sk/toolchain/lib/gcc/armv7l-analogics-linux-gnueabi/4.8.2/include/stdarg.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/stdio_lim.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/sys_errlist.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/stdio.h \
+ ../../include/dosbox.h ../../config.h ../../include/logging.h \
+ ../../include/mem.h ../../include/cpu.h ../../include/regs.h lazyflags.h \
+ ../../include/regs.h ../../include/inout.h ../../include/callback.h \
+ ../../include/pic.h ../../include/fpu.h ../../include/paging.h \
+ instructions.h core_normal/support.h core_normal/helpers.h \
+ core_normal/table_ea.h core_normal/../modrm.h core_normal/string.h \
+ core_normal/prefix_none.h core_normal/prefix_0f.h \
+ core_normal/prefix_66.h core_normal/prefix_66_0f.h
+
+/opt/analogics/am335x_sk/toolchain/include/stdc-predef.h:
+
+/opt/analogics/am335x_sk/toolchain/include/stdio.h:
+
+/opt/analogics/am335x_sk/toolchain/include/features.h:
+
+/opt/analogics/am335x_sk/toolchain/include/sys/cdefs.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/wordsize.h:
+
+/opt/analogics/am335x_sk/toolchain/include/gnu/stubs.h:
+
+/opt/analogics/am335x_sk/toolchain/include/gnu/stubs-soft.h:
+
+/opt/analogics/am335x_sk/toolchain/lib/gcc/armv7l-analogics-linux-gnueabi/4.8.2/include/stddef.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/types.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/typesizes.h:
+
+/opt/analogics/am335x_sk/toolchain/include/libio.h:
+
+/opt/analogics/am335x_sk/toolchain/include/_G_config.h:
+
+/opt/analogics/am335x_sk/toolchain/include/wchar.h:
+
+/opt/analogics/am335x_sk/toolchain/lib/gcc/armv7l-analogics-linux-gnueabi/4.8.2/include/stdarg.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/stdio_lim.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/sys_errlist.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/stdio.h:
+
+../../include/dosbox.h:
+
+../../config.h:
+
+../../include/logging.h:
+
+../../include/mem.h:
+
+../../include/cpu.h:
+
+../../include/regs.h:
+
+lazyflags.h:
+
+../../include/regs.h:
+
+../../include/inout.h:
+
+../../include/callback.h:
+
+../../include/pic.h:
+
+../../include/fpu.h:
+
+../../include/paging.h:
+
+instructions.h:
+
+core_normal/support.h:
+
+core_normal/helpers.h:
+
+core_normal/table_ea.h:
+
+core_normal/../modrm.h:
+
+core_normal/string.h:
+
+core_normal/prefix_none.h:
+
+core_normal/prefix_0f.h:
+
+core_normal/prefix_66.h:
+
+core_normal/prefix_66_0f.h:

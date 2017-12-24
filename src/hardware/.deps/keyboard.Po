@@ -1,0 +1,229 @@
+keyboard.o: keyboard.cpp \
+ /opt/analogics/am335x_sk/toolchain/include/stdc-predef.h \
+ ../../include/dosbox.h ../../config.h ../../include/logging.h \
+ ../../include/keyboard.h ../../include/inout.h ../../include/pic.h \
+ ../../include/mem.h ../../include/mixer.h ../../include/timer.h \
+ /opt/analogics/am335x_sk/toolchain/include/SDL/SDL.h \
+ /opt/analogics/am335x_sk/toolchain/include/SDL/SDL_main.h \
+ /opt/analogics/am335x_sk/toolchain/include/SDL/SDL_stdinc.h \
+ /opt/analogics/am335x_sk/toolchain/include/SDL/SDL_config.h \
+ /opt/analogics/am335x_sk/toolchain/include/SDL/SDL_platform.h \
+ /opt/analogics/am335x_sk/toolchain/include/sys/types.h \
+ /opt/analogics/am335x_sk/toolchain/include/features.h \
+ /opt/analogics/am335x_sk/toolchain/include/sys/cdefs.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/wordsize.h \
+ /opt/analogics/am335x_sk/toolchain/include/gnu/stubs.h \
+ /opt/analogics/am335x_sk/toolchain/include/gnu/stubs-soft.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/types.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/typesizes.h \
+ /opt/analogics/am335x_sk/toolchain/include/time.h \
+ /opt/analogics/am335x_sk/toolchain/lib/gcc/armv7l-analogics-linux-gnueabi/4.8.2/include/stddef.h \
+ /opt/analogics/am335x_sk/toolchain/include/endian.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/endian.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/byteswap.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/byteswap-16.h \
+ /opt/analogics/am335x_sk/toolchain/include/sys/select.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/select.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/sigset.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/time.h \
+ /opt/analogics/am335x_sk/toolchain/include/sys/sysmacros.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/pthreadtypes.h \
+ /opt/analogics/am335x_sk/toolchain/include/stdio.h \
+ /opt/analogics/am335x_sk/toolchain/include/libio.h \
+ /opt/analogics/am335x_sk/toolchain/include/_G_config.h \
+ /opt/analogics/am335x_sk/toolchain/include/wchar.h \
+ /opt/analogics/am335x_sk/toolchain/lib/gcc/armv7l-analogics-linux-gnueabi/4.8.2/include/stdarg.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/stdio_lim.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/sys_errlist.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/stdio.h \
+ /opt/analogics/am335x_sk/toolchain/include/stdlib.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/waitflags.h \
+ /opt/analogics/am335x_sk/toolchain/include/xlocale.h \
+ /opt/analogics/am335x_sk/toolchain/include/alloca.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/stdlib-bsearch.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/stdlib-float.h \
+ /opt/analogics/am335x_sk/toolchain/include/string.h \
+ /opt/analogics/am335x_sk/toolchain/include/strings.h \
+ /opt/analogics/am335x_sk/toolchain/include/inttypes.h \
+ /opt/analogics/am335x_sk/toolchain/lib/gcc/armv7l-analogics-linux-gnueabi/4.8.2/include/stdint.h \
+ /opt/analogics/am335x_sk/toolchain/include/stdint.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/wchar.h \
+ /opt/analogics/am335x_sk/toolchain/include/ctype.h \
+ /opt/analogics/am335x_sk/toolchain/include/iconv.h \
+ /opt/analogics/am335x_sk/toolchain/include/SDL/begin_code.h \
+ /opt/analogics/am335x_sk/toolchain/include/SDL/close_code.h \
+ /opt/analogics/am335x_sk/toolchain/include/SDL/SDL_audio.h \
+ /opt/analogics/am335x_sk/toolchain/include/SDL/SDL_error.h \
+ /opt/analogics/am335x_sk/toolchain/include/SDL/SDL_endian.h \
+ /opt/analogics/am335x_sk/toolchain/include/SDL/SDL_mutex.h \
+ /opt/analogics/am335x_sk/toolchain/include/SDL/SDL_thread.h \
+ /opt/analogics/am335x_sk/toolchain/include/SDL/SDL_rwops.h \
+ /opt/analogics/am335x_sk/toolchain/include/SDL/SDL_cdrom.h \
+ /opt/analogics/am335x_sk/toolchain/include/SDL/SDL_cpuinfo.h \
+ /opt/analogics/am335x_sk/toolchain/include/SDL/SDL_events.h \
+ /opt/analogics/am335x_sk/toolchain/include/SDL/SDL_active.h \
+ /opt/analogics/am335x_sk/toolchain/include/SDL/SDL_keyboard.h \
+ /opt/analogics/am335x_sk/toolchain/include/SDL/SDL_keysym.h \
+ /opt/analogics/am335x_sk/toolchain/include/SDL/SDL_mouse.h \
+ /opt/analogics/am335x_sk/toolchain/include/SDL/SDL_video.h \
+ /opt/analogics/am335x_sk/toolchain/include/SDL/SDL_joystick.h \
+ /opt/analogics/am335x_sk/toolchain/include/SDL/SDL_quit.h \
+ /opt/analogics/am335x_sk/toolchain/include/SDL/SDL_loadso.h \
+ /opt/analogics/am335x_sk/toolchain/include/SDL/SDL_timer.h \
+ /opt/analogics/am335x_sk/toolchain/include/SDL/SDL_version.h
+
+/opt/analogics/am335x_sk/toolchain/include/stdc-predef.h:
+
+../../include/dosbox.h:
+
+../../config.h:
+
+../../include/logging.h:
+
+../../include/keyboard.h:
+
+../../include/inout.h:
+
+../../include/pic.h:
+
+../../include/mem.h:
+
+../../include/mixer.h:
+
+../../include/timer.h:
+
+/opt/analogics/am335x_sk/toolchain/include/SDL/SDL.h:
+
+/opt/analogics/am335x_sk/toolchain/include/SDL/SDL_main.h:
+
+/opt/analogics/am335x_sk/toolchain/include/SDL/SDL_stdinc.h:
+
+/opt/analogics/am335x_sk/toolchain/include/SDL/SDL_config.h:
+
+/opt/analogics/am335x_sk/toolchain/include/SDL/SDL_platform.h:
+
+/opt/analogics/am335x_sk/toolchain/include/sys/types.h:
+
+/opt/analogics/am335x_sk/toolchain/include/features.h:
+
+/opt/analogics/am335x_sk/toolchain/include/sys/cdefs.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/wordsize.h:
+
+/opt/analogics/am335x_sk/toolchain/include/gnu/stubs.h:
+
+/opt/analogics/am335x_sk/toolchain/include/gnu/stubs-soft.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/types.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/typesizes.h:
+
+/opt/analogics/am335x_sk/toolchain/include/time.h:
+
+/opt/analogics/am335x_sk/toolchain/lib/gcc/armv7l-analogics-linux-gnueabi/4.8.2/include/stddef.h:
+
+/opt/analogics/am335x_sk/toolchain/include/endian.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/endian.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/byteswap.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/byteswap-16.h:
+
+/opt/analogics/am335x_sk/toolchain/include/sys/select.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/select.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/sigset.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/time.h:
+
+/opt/analogics/am335x_sk/toolchain/include/sys/sysmacros.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/pthreadtypes.h:
+
+/opt/analogics/am335x_sk/toolchain/include/stdio.h:
+
+/opt/analogics/am335x_sk/toolchain/include/libio.h:
+
+/opt/analogics/am335x_sk/toolchain/include/_G_config.h:
+
+/opt/analogics/am335x_sk/toolchain/include/wchar.h:
+
+/opt/analogics/am335x_sk/toolchain/lib/gcc/armv7l-analogics-linux-gnueabi/4.8.2/include/stdarg.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/stdio_lim.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/sys_errlist.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/stdio.h:
+
+/opt/analogics/am335x_sk/toolchain/include/stdlib.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/waitflags.h:
+
+/opt/analogics/am335x_sk/toolchain/include/xlocale.h:
+
+/opt/analogics/am335x_sk/toolchain/include/alloca.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/stdlib-bsearch.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/stdlib-float.h:
+
+/opt/analogics/am335x_sk/toolchain/include/string.h:
+
+/opt/analogics/am335x_sk/toolchain/include/strings.h:
+
+/opt/analogics/am335x_sk/toolchain/include/inttypes.h:
+
+/opt/analogics/am335x_sk/toolchain/lib/gcc/armv7l-analogics-linux-gnueabi/4.8.2/include/stdint.h:
+
+/opt/analogics/am335x_sk/toolchain/include/stdint.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/wchar.h:
+
+/opt/analogics/am335x_sk/toolchain/include/ctype.h:
+
+/opt/analogics/am335x_sk/toolchain/include/iconv.h:
+
+/opt/analogics/am335x_sk/toolchain/include/SDL/begin_code.h:
+
+/opt/analogics/am335x_sk/toolchain/include/SDL/close_code.h:
+
+/opt/analogics/am335x_sk/toolchain/include/SDL/SDL_audio.h:
+
+/opt/analogics/am335x_sk/toolchain/include/SDL/SDL_error.h:
+
+/opt/analogics/am335x_sk/toolchain/include/SDL/SDL_endian.h:
+
+/opt/analogics/am335x_sk/toolchain/include/SDL/SDL_mutex.h:
+
+/opt/analogics/am335x_sk/toolchain/include/SDL/SDL_thread.h:
+
+/opt/analogics/am335x_sk/toolchain/include/SDL/SDL_rwops.h:
+
+/opt/analogics/am335x_sk/toolchain/include/SDL/SDL_cdrom.h:
+
+/opt/analogics/am335x_sk/toolchain/include/SDL/SDL_cpuinfo.h:
+
+/opt/analogics/am335x_sk/toolchain/include/SDL/SDL_events.h:
+
+/opt/analogics/am335x_sk/toolchain/include/SDL/SDL_active.h:
+
+/opt/analogics/am335x_sk/toolchain/include/SDL/SDL_keyboard.h:
+
+/opt/analogics/am335x_sk/toolchain/include/SDL/SDL_keysym.h:
+
+/opt/analogics/am335x_sk/toolchain/include/SDL/SDL_mouse.h:
+
+/opt/analogics/am335x_sk/toolchain/include/SDL/SDL_video.h:
+
+/opt/analogics/am335x_sk/toolchain/include/SDL/SDL_joystick.h:
+
+/opt/analogics/am335x_sk/toolchain/include/SDL/SDL_quit.h:
+
+/opt/analogics/am335x_sk/toolchain/include/SDL/SDL_loadso.h:
+
+/opt/analogics/am335x_sk/toolchain/include/SDL/SDL_timer.h:
+
+/opt/analogics/am335x_sk/toolchain/include/SDL/SDL_version.h:

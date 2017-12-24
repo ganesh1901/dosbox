@@ -1,0 +1,352 @@
+dbopl.o: dbopl.cpp \
+ /opt/analogics/am335x_sk/toolchain/include/stdc-predef.h \
+ /opt/analogics/am335x_sk/toolchain/include/math.h \
+ /opt/analogics/am335x_sk/toolchain/include/features.h \
+ /opt/analogics/am335x_sk/toolchain/include/sys/cdefs.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/wordsize.h \
+ /opt/analogics/am335x_sk/toolchain/include/gnu/stubs.h \
+ /opt/analogics/am335x_sk/toolchain/include/gnu/stubs-soft.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/huge_val.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/huge_valf.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/huge_vall.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/inf.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/nan.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/mathdef.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/mathcalls.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/mathinline.h \
+ /opt/analogics/am335x_sk/toolchain/include/stdlib.h \
+ /opt/analogics/am335x_sk/toolchain/lib/gcc/armv7l-analogics-linux-gnueabi/4.8.2/include/stddef.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/waitflags.h \
+ /opt/analogics/am335x_sk/toolchain/include/xlocale.h \
+ /opt/analogics/am335x_sk/toolchain/include/sys/types.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/types.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/typesizes.h \
+ /opt/analogics/am335x_sk/toolchain/include/time.h \
+ /opt/analogics/am335x_sk/toolchain/include/endian.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/endian.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/byteswap.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/byteswap-16.h \
+ /opt/analogics/am335x_sk/toolchain/include/sys/select.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/select.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/sigset.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/time.h \
+ /opt/analogics/am335x_sk/toolchain/include/sys/sysmacros.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/pthreadtypes.h \
+ /opt/analogics/am335x_sk/toolchain/include/alloca.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/stdlib-bsearch.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/stdlib-float.h \
+ /opt/analogics/am335x_sk/toolchain/include/string.h \
+ ../../include/dosbox.h ../../config.h ../../include/logging.h dbopl.h \
+ adlib.h ../../include/mixer.h ../../include/inout.h \
+ ../../include/setup.h \
+ /opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/list \
+ /opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/stl_algobase.h \
+ /opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/armv7l-analogics-linux-gnueabi/bits/c++config.h \
+ /opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/armv7l-analogics-linux-gnueabi/bits/os_defines.h \
+ /opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/armv7l-analogics-linux-gnueabi/bits/cpu_defines.h \
+ /opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/functexcept.h \
+ /opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/exception_defines.h \
+ /opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/cpp_type_traits.h \
+ /opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/ext/type_traits.h \
+ /opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/ext/numeric_traits.h \
+ /opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/stl_pair.h \
+ /opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/move.h \
+ /opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/concept_check.h \
+ /opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/stl_iterator_base_types.h \
+ /opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/stl_iterator_base_funcs.h \
+ /opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/debug/debug.h \
+ /opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/stl_iterator.h \
+ /opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/allocator.h \
+ /opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/armv7l-analogics-linux-gnueabi/bits/c++allocator.h \
+ /opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/ext/new_allocator.h \
+ /opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/new \
+ /opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/exception \
+ /opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/atomic_lockfree_defines.h \
+ /opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/memoryfwd.h \
+ /opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/range_access.h \
+ /opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/stl_list.h \
+ /opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/list.tcc \
+ /opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/vector \
+ /opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/stl_construct.h \
+ /opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/ext/alloc_traits.h \
+ /opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/stl_uninitialized.h \
+ /opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/stl_vector.h \
+ /opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/stl_bvector.h \
+ /opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/vector.tcc \
+ /opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/string \
+ /opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/stringfwd.h \
+ /opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/char_traits.h \
+ /opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/postypes.h \
+ /opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/cwchar \
+ /opt/analogics/am335x_sk/toolchain/include/wchar.h \
+ /opt/analogics/am335x_sk/toolchain/include/stdio.h \
+ /opt/analogics/am335x_sk/toolchain/lib/gcc/armv7l-analogics-linux-gnueabi/4.8.2/include/stdarg.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/wchar.h \
+ /opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/localefwd.h \
+ /opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/armv7l-analogics-linux-gnueabi/bits/c++locale.h \
+ /opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/clocale \
+ /opt/analogics/am335x_sk/toolchain/include/locale.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/locale.h \
+ /opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/iosfwd \
+ /opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/cctype \
+ /opt/analogics/am335x_sk/toolchain/include/ctype.h \
+ /opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/ostream_insert.h \
+ /opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/cxxabi_forced.h \
+ /opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/stl_function.h \
+ /opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/backward/binders.h \
+ /opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/basic_string.h \
+ /opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/ext/atomicity.h \
+ /opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/armv7l-analogics-linux-gnueabi/bits/gthr.h \
+ /opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/armv7l-analogics-linux-gnueabi/bits/gthr-default.h \
+ /opt/analogics/am335x_sk/toolchain/include/pthread.h \
+ /opt/analogics/am335x_sk/toolchain/include/sched.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/sched.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/timex.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/setjmp.h \
+ /opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/armv7l-analogics-linux-gnueabi/bits/atomic_word.h \
+ /opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/basic_string.tcc \
+ /opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/cstdio \
+ /opt/analogics/am335x_sk/toolchain/include/libio.h \
+ /opt/analogics/am335x_sk/toolchain/include/_G_config.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/stdio_lim.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/sys_errlist.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/stdio.h \
+ ../../include/pic.h ../../include/hardware.h
+
+/opt/analogics/am335x_sk/toolchain/include/stdc-predef.h:
+
+/opt/analogics/am335x_sk/toolchain/include/math.h:
+
+/opt/analogics/am335x_sk/toolchain/include/features.h:
+
+/opt/analogics/am335x_sk/toolchain/include/sys/cdefs.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/wordsize.h:
+
+/opt/analogics/am335x_sk/toolchain/include/gnu/stubs.h:
+
+/opt/analogics/am335x_sk/toolchain/include/gnu/stubs-soft.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/huge_val.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/huge_valf.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/huge_vall.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/inf.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/nan.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/mathdef.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/mathcalls.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/mathinline.h:
+
+/opt/analogics/am335x_sk/toolchain/include/stdlib.h:
+
+/opt/analogics/am335x_sk/toolchain/lib/gcc/armv7l-analogics-linux-gnueabi/4.8.2/include/stddef.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/waitflags.h:
+
+/opt/analogics/am335x_sk/toolchain/include/xlocale.h:
+
+/opt/analogics/am335x_sk/toolchain/include/sys/types.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/types.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/typesizes.h:
+
+/opt/analogics/am335x_sk/toolchain/include/time.h:
+
+/opt/analogics/am335x_sk/toolchain/include/endian.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/endian.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/byteswap.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/byteswap-16.h:
+
+/opt/analogics/am335x_sk/toolchain/include/sys/select.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/select.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/sigset.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/time.h:
+
+/opt/analogics/am335x_sk/toolchain/include/sys/sysmacros.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/pthreadtypes.h:
+
+/opt/analogics/am335x_sk/toolchain/include/alloca.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/stdlib-bsearch.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/stdlib-float.h:
+
+/opt/analogics/am335x_sk/toolchain/include/string.h:
+
+../../include/dosbox.h:
+
+../../config.h:
+
+../../include/logging.h:
+
+dbopl.h:
+
+adlib.h:
+
+../../include/mixer.h:
+
+../../include/inout.h:
+
+../../include/setup.h:
+
+/opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/list:
+
+/opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/stl_algobase.h:
+
+/opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/armv7l-analogics-linux-gnueabi/bits/c++config.h:
+
+/opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/armv7l-analogics-linux-gnueabi/bits/os_defines.h:
+
+/opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/armv7l-analogics-linux-gnueabi/bits/cpu_defines.h:
+
+/opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/functexcept.h:
+
+/opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/exception_defines.h:
+
+/opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/cpp_type_traits.h:
+
+/opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/ext/type_traits.h:
+
+/opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/ext/numeric_traits.h:
+
+/opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/stl_pair.h:
+
+/opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/move.h:
+
+/opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/concept_check.h:
+
+/opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/stl_iterator_base_types.h:
+
+/opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/stl_iterator_base_funcs.h:
+
+/opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/debug/debug.h:
+
+/opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/stl_iterator.h:
+
+/opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/allocator.h:
+
+/opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/armv7l-analogics-linux-gnueabi/bits/c++allocator.h:
+
+/opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/ext/new_allocator.h:
+
+/opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/new:
+
+/opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/exception:
+
+/opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/atomic_lockfree_defines.h:
+
+/opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/memoryfwd.h:
+
+/opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/range_access.h:
+
+/opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/stl_list.h:
+
+/opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/list.tcc:
+
+/opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/vector:
+
+/opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/stl_construct.h:
+
+/opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/ext/alloc_traits.h:
+
+/opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/stl_uninitialized.h:
+
+/opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/stl_vector.h:
+
+/opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/stl_bvector.h:
+
+/opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/vector.tcc:
+
+/opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/string:
+
+/opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/stringfwd.h:
+
+/opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/char_traits.h:
+
+/opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/postypes.h:
+
+/opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/cwchar:
+
+/opt/analogics/am335x_sk/toolchain/include/wchar.h:
+
+/opt/analogics/am335x_sk/toolchain/include/stdio.h:
+
+/opt/analogics/am335x_sk/toolchain/lib/gcc/armv7l-analogics-linux-gnueabi/4.8.2/include/stdarg.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/wchar.h:
+
+/opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/localefwd.h:
+
+/opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/armv7l-analogics-linux-gnueabi/bits/c++locale.h:
+
+/opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/clocale:
+
+/opt/analogics/am335x_sk/toolchain/include/locale.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/locale.h:
+
+/opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/iosfwd:
+
+/opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/cctype:
+
+/opt/analogics/am335x_sk/toolchain/include/ctype.h:
+
+/opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/ostream_insert.h:
+
+/opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/cxxabi_forced.h:
+
+/opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/stl_function.h:
+
+/opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/backward/binders.h:
+
+/opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/basic_string.h:
+
+/opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/ext/atomicity.h:
+
+/opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/armv7l-analogics-linux-gnueabi/bits/gthr.h:
+
+/opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/armv7l-analogics-linux-gnueabi/bits/gthr-default.h:
+
+/opt/analogics/am335x_sk/toolchain/include/pthread.h:
+
+/opt/analogics/am335x_sk/toolchain/include/sched.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/sched.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/timex.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/setjmp.h:
+
+/opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/armv7l-analogics-linux-gnueabi/bits/atomic_word.h:
+
+/opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/bits/basic_string.tcc:
+
+/opt/analogics/am335x_sk/toolchain/armv7l-analogics-linux-gnueabi/include/c++/4.8.2/cstdio:
+
+/opt/analogics/am335x_sk/toolchain/include/libio.h:
+
+/opt/analogics/am335x_sk/toolchain/include/_G_config.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/stdio_lim.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/sys_errlist.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/stdio.h:
+
+../../include/pic.h:
+
+../../include/hardware.h:

@@ -1,0 +1,24 @@
+vga_dac.o: vga_dac.cpp \
+ /opt/analogics/am335x_sk/toolchain/include/stdc-predef.h \
+ ../../include/dosbox.h ../../config.h ../../include/logging.h \
+ ../../include/inout.h ../../include/render.h \
+ ../../include/../src/gui/render_scalers.h ../../include/video.h \
+ ../../include/vga.h
+
+/opt/analogics/am335x_sk/toolchain/include/stdc-predef.h:
+
+../../include/dosbox.h:
+
+../../config.h:
+
+../../include/logging.h:
+
+../../include/inout.h:
+
+../../include/render.h:
+
+../../include/../src/gui/render_scalers.h:
+
+../../include/video.h:
+
+../../include/vga.h:

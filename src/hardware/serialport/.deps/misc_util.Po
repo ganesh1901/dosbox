@@ -1,0 +1,7 @@
+misc_util.o: misc_util.cpp \
+ /opt/analogics/am335x_sk/toolchain/include/stdc-predef.h \
+ ../../../config.h
+
+/opt/analogics/am335x_sk/toolchain/include/stdc-predef.h:
+
+../../../config.h:

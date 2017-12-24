@@ -1,0 +1,47 @@
+int10_modes.o: int10_modes.cpp \
+ /opt/analogics/am335x_sk/toolchain/include/stdc-predef.h \
+ /opt/analogics/am335x_sk/toolchain/include/string.h \
+ /opt/analogics/am335x_sk/toolchain/include/features.h \
+ /opt/analogics/am335x_sk/toolchain/include/sys/cdefs.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/wordsize.h \
+ /opt/analogics/am335x_sk/toolchain/include/gnu/stubs.h \
+ /opt/analogics/am335x_sk/toolchain/include/gnu/stubs-soft.h \
+ /opt/analogics/am335x_sk/toolchain/lib/gcc/armv7l-analogics-linux-gnueabi/4.8.2/include/stddef.h \
+ /opt/analogics/am335x_sk/toolchain/include/xlocale.h \
+ ../../include/dosbox.h ../../config.h ../../include/logging.h \
+ ../../include/mem.h ../../include/inout.h int10.h ../../include/vga.h \
+ ../../include/mouse.h
+
+/opt/analogics/am335x_sk/toolchain/include/stdc-predef.h:
+
+/opt/analogics/am335x_sk/toolchain/include/string.h:
+
+/opt/analogics/am335x_sk/toolchain/include/features.h:
+
+/opt/analogics/am335x_sk/toolchain/include/sys/cdefs.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/wordsize.h:
+
+/opt/analogics/am335x_sk/toolchain/include/gnu/stubs.h:
+
+/opt/analogics/am335x_sk/toolchain/include/gnu/stubs-soft.h:
+
+/opt/analogics/am335x_sk/toolchain/lib/gcc/armv7l-analogics-linux-gnueabi/4.8.2/include/stddef.h:
+
+/opt/analogics/am335x_sk/toolchain/include/xlocale.h:
+
+../../include/dosbox.h:
+
+../../config.h:
+
+../../include/logging.h:
+
+../../include/mem.h:
+
+../../include/inout.h:
+
+int10.h:
+
+../../include/vga.h:
+
+../../include/mouse.h:

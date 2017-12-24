@@ -1,0 +1,82 @@
+vga_other.o: vga_other.cpp \
+ /opt/analogics/am335x_sk/toolchain/include/stdc-predef.h \
+ /opt/analogics/am335x_sk/toolchain/include/string.h \
+ /opt/analogics/am335x_sk/toolchain/include/features.h \
+ /opt/analogics/am335x_sk/toolchain/include/sys/cdefs.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/wordsize.h \
+ /opt/analogics/am335x_sk/toolchain/include/gnu/stubs.h \
+ /opt/analogics/am335x_sk/toolchain/include/gnu/stubs-soft.h \
+ /opt/analogics/am335x_sk/toolchain/lib/gcc/armv7l-analogics-linux-gnueabi/4.8.2/include/stddef.h \
+ /opt/analogics/am335x_sk/toolchain/include/xlocale.h \
+ /opt/analogics/am335x_sk/toolchain/include/math.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/huge_val.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/huge_valf.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/huge_vall.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/inf.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/nan.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/mathdef.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/mathcalls.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/mathinline.h \
+ ../../include/dosbox.h ../../config.h ../../include/logging.h \
+ ../../include/inout.h ../../include/vga.h ../../include/mem.h \
+ ../../include/pic.h ../../include/render.h \
+ ../../include/../src/gui/render_scalers.h ../../include/video.h \
+ ../../include/mapper.h
+
+/opt/analogics/am335x_sk/toolchain/include/stdc-predef.h:
+
+/opt/analogics/am335x_sk/toolchain/include/string.h:
+
+/opt/analogics/am335x_sk/toolchain/include/features.h:
+
+/opt/analogics/am335x_sk/toolchain/include/sys/cdefs.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/wordsize.h:
+
+/opt/analogics/am335x_sk/toolchain/include/gnu/stubs.h:
+
+/opt/analogics/am335x_sk/toolchain/include/gnu/stubs-soft.h:
+
+/opt/analogics/am335x_sk/toolchain/lib/gcc/armv7l-analogics-linux-gnueabi/4.8.2/include/stddef.h:
+
+/opt/analogics/am335x_sk/toolchain/include/xlocale.h:
+
+/opt/analogics/am335x_sk/toolchain/include/math.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/huge_val.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/huge_valf.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/huge_vall.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/inf.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/nan.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/mathdef.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/mathcalls.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/mathinline.h:
+
+../../include/dosbox.h:
+
+../../config.h:
+
+../../include/logging.h:
+
+../../include/inout.h:
+
+../../include/vga.h:
+
+../../include/mem.h:
+
+../../include/pic.h:
+
+../../include/render.h:
+
+../../include/../src/gui/render_scalers.h:
+
+../../include/video.h:
+
+../../include/mapper.h:

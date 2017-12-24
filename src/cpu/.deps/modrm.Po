@@ -1,0 +1,18 @@
+modrm.o: modrm.cpp \
+ /opt/analogics/am335x_sk/toolchain/include/stdc-predef.h \
+ ../../include/cpu.h ../../include/dosbox.h ../../config.h \
+ ../../include/logging.h ../../include/regs.h ../../include/mem.h
+
+/opt/analogics/am335x_sk/toolchain/include/stdc-predef.h:
+
+../../include/cpu.h:
+
+../../include/dosbox.h:
+
+../../config.h:
+
+../../include/logging.h:
+
+../../include/regs.h:
+
+../../include/mem.h:

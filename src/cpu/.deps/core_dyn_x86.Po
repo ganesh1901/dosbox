@@ -1,0 +1,11 @@
+core_dyn_x86.o: core_dyn_x86.cpp \
+ /opt/analogics/am335x_sk/toolchain/include/stdc-predef.h \
+ ../../include/dosbox.h ../../config.h ../../include/logging.h
+
+/opt/analogics/am335x_sk/toolchain/include/stdc-predef.h:
+
+../../include/dosbox.h:
+
+../../config.h:
+
+../../include/logging.h:

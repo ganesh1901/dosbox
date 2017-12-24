@@ -1,0 +1,4 @@
+sdl_gui.o: sdl_gui.cpp \
+ /opt/analogics/am335x_sk/toolchain/include/stdc-predef.h
+
+/opt/analogics/am335x_sk/toolchain/include/stdc-predef.h:

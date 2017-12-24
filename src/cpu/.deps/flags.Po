@@ -1,0 +1,25 @@
+flags.o: flags.cpp \
+ /opt/analogics/am335x_sk/toolchain/include/stdc-predef.h \
+ ../../include/dosbox.h ../../config.h ../../include/logging.h \
+ ../../include/cpu.h ../../include/regs.h ../../include/mem.h lazyflags.h \
+ ../../include/regs.h ../../include/pic.h
+
+/opt/analogics/am335x_sk/toolchain/include/stdc-predef.h:
+
+../../include/dosbox.h:
+
+../../config.h:
+
+../../include/logging.h:
+
+../../include/cpu.h:
+
+../../include/regs.h:
+
+../../include/mem.h:
+
+lazyflags.h:
+
+../../include/regs.h:
+
+../../include/pic.h:

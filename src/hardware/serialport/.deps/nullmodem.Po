@@ -1,0 +1,11 @@
+nullmodem.o: nullmodem.cpp \
+ /opt/analogics/am335x_sk/toolchain/include/stdc-predef.h \
+ ../../../include/dosbox.h ../../../config.h ../../../include/logging.h
+
+/opt/analogics/am335x_sk/toolchain/include/stdc-predef.h:
+
+../../../include/dosbox.h:
+
+../../../config.h:
+
+../../../include/logging.h:

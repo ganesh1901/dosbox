@@ -1,0 +1,4 @@
+gui_tk.o: gui_tk.cpp \
+ /opt/analogics/am335x_sk/toolchain/include/stdc-predef.h
+
+/opt/analogics/am335x_sk/toolchain/include/stdc-predef.h:

@@ -1,0 +1,4 @@
+cdrom_aspi_win32.o: cdrom_aspi_win32.cpp \
+ /opt/analogics/am335x_sk/toolchain/include/stdc-predef.h
+
+/opt/analogics/am335x_sk/toolchain/include/stdc-predef.h:

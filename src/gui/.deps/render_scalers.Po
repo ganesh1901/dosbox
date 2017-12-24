@@ -1,0 +1,116 @@
+render_scalers.o: render_scalers.cpp \
+ /opt/analogics/am335x_sk/toolchain/include/stdc-predef.h \
+ ../../include/dosbox.h ../../config.h ../../include/logging.h \
+ ../../include/render.h ../../include/../src/gui/render_scalers.h \
+ ../../include/video.h \
+ /opt/analogics/am335x_sk/toolchain/include/string.h \
+ /opt/analogics/am335x_sk/toolchain/include/features.h \
+ /opt/analogics/am335x_sk/toolchain/include/sys/cdefs.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/wordsize.h \
+ /opt/analogics/am335x_sk/toolchain/include/gnu/stubs.h \
+ /opt/analogics/am335x_sk/toolchain/include/gnu/stubs-soft.h \
+ /opt/analogics/am335x_sk/toolchain/lib/gcc/armv7l-analogics-linux-gnueabi/4.8.2/include/stddef.h \
+ /opt/analogics/am335x_sk/toolchain/include/xlocale.h render_templates.h \
+ render_simple.h render_loops.h render_templates_hq.h \
+ /opt/analogics/am335x_sk/toolchain/include/stdlib.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/waitflags.h \
+ /opt/analogics/am335x_sk/toolchain/include/sys/types.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/types.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/typesizes.h \
+ /opt/analogics/am335x_sk/toolchain/include/time.h \
+ /opt/analogics/am335x_sk/toolchain/include/endian.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/endian.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/byteswap.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/byteswap-16.h \
+ /opt/analogics/am335x_sk/toolchain/include/sys/select.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/select.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/sigset.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/time.h \
+ /opt/analogics/am335x_sk/toolchain/include/sys/sysmacros.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/pthreadtypes.h \
+ /opt/analogics/am335x_sk/toolchain/include/alloca.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/stdlib-bsearch.h \
+ /opt/analogics/am335x_sk/toolchain/include/bits/stdlib-float.h \
+ render_templates_hq2x.h render_templates_hq3x.h render_templates_sai.h
+
+/opt/analogics/am335x_sk/toolchain/include/stdc-predef.h:
+
+../../include/dosbox.h:
+
+../../config.h:
+
+../../include/logging.h:
+
+../../include/render.h:
+
+../../include/../src/gui/render_scalers.h:
+
+../../include/video.h:
+
+/opt/analogics/am335x_sk/toolchain/include/string.h:
+
+/opt/analogics/am335x_sk/toolchain/include/features.h:
+
+/opt/analogics/am335x_sk/toolchain/include/sys/cdefs.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/wordsize.h:
+
+/opt/analogics/am335x_sk/toolchain/include/gnu/stubs.h:
+
+/opt/analogics/am335x_sk/toolchain/include/gnu/stubs-soft.h:
+
+/opt/analogics/am335x_sk/toolchain/lib/gcc/armv7l-analogics-linux-gnueabi/4.8.2/include/stddef.h:
+
+/opt/analogics/am335x_sk/toolchain/include/xlocale.h:
+
+render_templates.h:
+
+render_simple.h:
+
+render_loops.h:
+
+render_templates_hq.h:
+
+/opt/analogics/am335x_sk/toolchain/include/stdlib.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/waitflags.h:
+
+/opt/analogics/am335x_sk/toolchain/include/sys/types.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/types.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/typesizes.h:
+
+/opt/analogics/am335x_sk/toolchain/include/time.h:
+
+/opt/analogics/am335x_sk/toolchain/include/endian.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/endian.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/byteswap.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/byteswap-16.h:
+
+/opt/analogics/am335x_sk/toolchain/include/sys/select.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/select.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/sigset.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/time.h:
+
+/opt/analogics/am335x_sk/toolchain/include/sys/sysmacros.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/pthreadtypes.h:
+
+/opt/analogics/am335x_sk/toolchain/include/alloca.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/stdlib-bsearch.h:
+
+/opt/analogics/am335x_sk/toolchain/include/bits/stdlib-float.h:
+
+render_templates_hq2x.h:
+
+render_templates_hq3x.h:
+
+render_templates_sai.h:
